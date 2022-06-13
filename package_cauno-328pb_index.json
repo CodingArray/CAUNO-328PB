@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "name": "cauno-328pb",
+      "maintainer": "Coding Array",
+      "websiteURL": "https://github.com/CodingArray/CAUNO-328PB",
+      "email": "",
+      "help": {"online": "https://github.com/CodingArray/CAUNO-328PB"},
+
+      "platforms": [
+        {
+          "name": "Coding Array Boards",
+          "architecture": "avr",
+          "version": "1.1.4",
+          "category": "contributed",
+          "help": {"online": "https://github.com/CodingArray/CAUNO-328PB"},
+          "url": "https://github.com/CodingArray/CAUNO-328PB/raw/main/cauno-328pb.zip",
+          "archiveFileName": "cauno-328pb.zip",
+          "size": "84570",
+          "boards": [
+            {"name": "CodingArray 328PB Board"}
+          ]
+        }
+      ],
+
+      "tools": [
+        {
+          "name":"avr-gcc",
+          "version":"4.9.2c",
+          "systems": [
+            {
+                "host":"i686-mingw32",
+                "url":"https://github.com/CodingArray/CAUNO-328PB/raw/main/avr-gcc-4.9.2-win32.zip",
+                "archiveFileName":"avr-gcc-4.9.2c-win32.zip",
+                "checksum":"MD5:e4786528c0a4cb009eb441da07d82ced",
+                "size":"43832130"
+            }
+          ]
+        },
+        {
+          "name":"avrdude",
+          "version":"6.3.0",
+          "systems": [
+            {
+                "host":"i686-mingw32",
+                "url":"https://github.com/CodingArray/CAUNO-328PB/raw/main/avrdude-6.3.0-win32.zip",
+                "archiveFileName":"avrdude-6.3.0-win32.zip",
+                "checksum":"MD5:ec665463025eaafb940e0a3e9ef1fee5",
+                "size":"220965"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
