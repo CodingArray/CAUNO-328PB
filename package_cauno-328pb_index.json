@@ -16,7 +16,7 @@
           "help": {"online": "https://github.com/CodingArray/CAUNO-328PB"},
           "url": "https://github.com/CodingArray/CAUNO-328PB/raw/main/cauno-328pb.zip",
           "archiveFileName": "cauno-328pb.zip",
-          "size": "84570",
+          "size": "88258",
           "boards": [
             {"name": "CodingArray 328PB Board"}
           ]
